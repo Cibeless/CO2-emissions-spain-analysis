@@ -1,18 +1,19 @@
+# Analysis and Prediction of CO₂ Emissions — Spain
 
-# 🌍 Análise e Predição das Emissões de CO₂ — Espanha
+This project presents a detailed analysis of Spain's carbon dioxide (CO₂) emissions over time, using historical data from the Kaggle dataset: CO₂ & GHG Emissions Data. This project is analytical and educational. The forecast uses simple linear regression based on historical trends and does not replace advanced climate models.
 
-Este projeto apresenta uma análise detalhada das emissões de dióxido de carbono (CO₂) da Espanha ao longo do tempo, utilizando dados históricos do conjunto de dados do Kaggle: CO₂ & GHG Emissions Data.
+Original dataset: https://www.kaggle.com/datasets/yoannboyere/co2-ghg-emissionsdata
 
-## 📦 Fonte dos Dados
-Dataset original: https://www.kaggle.com/datasets/yoannboyere/co2-ghg-emissionsdata
+# Project Objectives
+- Analyze the temporal evolution of CO₂ emissions in Spain.
 
-## 🎯 Objetivos do Projeto
-- Analisar a evolução temporal das emissões de CO₂ na Espanha.
-- Identificar o ano de pico das emissões.
-- Comparar a trajetória da Espanha com outros países europeus.
-- Criar uma previsão simples das emissões futuras usando Regressão Linear.
+- Identify the peak year of emissions.
 
-## 🧠 Tecnologias Utilizadas
+- Compare Spain's trajectory with other European countries.
+
+- Create a simple forecast of future emissions using Linear Regression.
+
+## Libraries
 - Python (Jupyter Notebook)
 - Pandas
 - NumPy
@@ -20,16 +21,9 @@ Dataset original: https://www.kaggle.com/datasets/yoannboyere/co2-ghg-emissionsd
 - Matplotlib
 - Scikit-Learn
 
-## 📈 Visualizações Incluídas
-- Série histórica das emissões da Espanha.
-- Comparação com França, Alemanha, Itália e Portugal.
-- Previsão das emissões para os próximos anos.
+## Included Visualizations
+- Historical series of emissions from Spain.
+- Comparison with France, Germany, Italy, and Portugal.
 
-## 🧩 Estrutura Sugerida do Repositório
-data/      → Dataset original (opcional)
-figures/   → Gráficos gerados no notebook
-Projeto_CO2_Spain.ipynb → Notebook principal
-README.md  → Descrição do projeto
+- Emission forecasts for the coming years.
 
-## 📝 Observações
-Este projeto é analítico e educacional. A previsão utiliza regressão linear simples baseada em tendências históricas e não substitui modelos climáticos avançados.
